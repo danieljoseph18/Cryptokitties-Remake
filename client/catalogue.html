@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Catalogue</title>
+
+        <script type="text/javascript" src="assets/js/jquery-3.4.1.js"></script>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <script src="assets/bootstrap/js/popper.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        
+        <script type="text/javascript" src="assets/js/web3.min.js"></script>
+        <script type="text/javascript" src="./abi.js"></script>
+        <script src="./index.js"></script>
+
+        <link rel="stylesheet" href="assets/css/homepage.css"> 
+        <link rel="stylesheet" href="assets/css/mystyle.css">
+        <link rel="stylesheet" href="assets/css/cats.css">
+        <link rel="stylesheet" href="assets/css/colors.css">
+        <link rel="stylesheet" href="assets/css/frontend.css">
+        <link rel="stylesheet" href="assets/css/animation.css">
+        <div class='button'>
+            <a href='./homepage.html' target='_self'><button class='homepage'>Homepage</button></a>
+            <a href="./index.html" target="_self"><button class="creator">Kitty Creator</button></a>
+            <a href='./breed.html' target='_self'><button class='breeder'>Kitty Breeder</button></a>
+            <a href="./catalogue.html" target="_self"><button class='catalogue'>Kittylogue</button></a>
+            <a href='./marketplace.html' target='_self'><button class='marketplace'>MarKITplace</button></a>
+        </div>
+    </head>
+    <body cz-shortcut-listen="true">
+        <h1><strong>Your Kitties:</strong></h1>    
+
+        <div class="header" align="center">
+
+            <div class="container">
+    
+            
+    
+            </div>
+        </div>
+    
+        <div class="container middleBox">
+            <br>
+            <div class="row" id="catsDiv">
+    
+            </div>
+    
+    
+        </div>
+
+
+        <script>
+            // when page loads create the catalog
+            $(document).ready(function () {
+                setTimeout(() => {
+                    getKitties()
+                }, 1000)
+            });
+        </script>
+    </body>
+    <script src="assets/js/colors.js"></script>
+    <script src="assets/js/catalogue/buildCat.js"></script>
+    <script src="assets/js/catalogue/showCats.js"></script>
+
+
+</html>

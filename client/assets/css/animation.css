@@ -1,0 +1,191 @@
+.movingHead {
+    animation: moveHead 5s infinite;
+}
+
+@keyframes moveHead{
+    0% {
+        transform: rotate(0deg)
+    }
+    30% {
+        transform: rotate(5deg)
+    }
+    60% {
+        transform: rotate(-5deg)
+    } 
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+.movingLeftEye {
+    animation: moveLeftEye 5s infinite;
+}
+
+@keyframes moveLeftEye {
+    0%{
+        left: 42px
+    }
+    30%{
+        left: 37px
+    }
+    60%{
+        left: 47px
+    }
+    100%{
+        left: 42px
+    }
+}
+
+.movingRightEye {
+    animation: moveRightEye 5s infinite;
+}
+
+@keyframes moveRightEye {
+    0%{
+        left: 166px
+    }
+    30%{
+        left: 161px
+    }
+    60%{
+        left: 171px
+    }
+    100%{
+        left: 166px
+    }
+}
+
+.movingTail {
+    animation: wagTail 5s infinite;
+}
+
+@keyframes wagTail {
+    0%{
+        transform: rotate(0deg)
+    }
+    30%{
+        transform: rotate(10deg)
+    }
+    60%{
+        transform: rotate(-10deg)
+    }
+    100%{
+        transform: rotate(0deg)
+    }
+}
+
+.noddingHead{
+    animation: nodHead 5s infinite;
+}
+
+@keyframes nodHead {
+    0%{
+        top: 0px
+    }
+    20%{
+        top: -3px
+    }
+    30%{
+        top: -5px
+    }
+    40%{
+        top: -3px
+    }
+    50%{
+        top: 0px
+    }
+    60%{
+        top: 3px
+    }
+    70%{
+        top: 5px
+    }
+    80%{
+        top: 3px
+    }
+    100%{
+        top: 0px
+    }
+}
+
+.wavingLeftEar{
+    animation: waveLeftEar 5s infinite;
+}
+
+@keyframes waveLeftEar {
+    0%{
+        transform: scale(1, -1) rotate(0deg)
+    }
+    30%{
+        transform: scale(1, -1) rotate(10deg)
+    }
+    60%{
+        transform: scale(1, -1) rotate(-10deg)
+    }
+    100%{
+        transform: scale(1, -1) rotate(0deg)
+    }
+}
+
+.wavingRightEar{
+    animation: waveRightEar 5s infinite;
+}
+
+@keyframes waveRightEar {
+    0%{
+        transform: rotate(0deg)
+    }
+    30%{
+        transform: rotate(10deg)
+    }
+    60%{
+        transform: rotate(-10deg)
+    }
+    100%{
+        transform: rotate(0deg)
+    }
+}
+
+.leftEyeTripping{
+    animation: leftEyeTrip 5s infinite;
+}
+
+@keyframes leftEyeTrip{
+    0%{
+        border-radius: 50%
+    }
+    25%{
+        border-radius: 40%
+    }
+    50%{
+        border-radius: 30%
+    }
+    75%{
+        border-radius: 40%
+    }
+    100%{
+        border-radius: 50%
+    }
+}
+
+.rightEyeTripping{
+    animation: rightEyeTrip 5s infinite;
+}
+
+@keyframes rightEyeTrip{
+    0%{
+        border-radius: 50%
+    }
+    25%{
+        border-radius: 40%
+    }
+    50%{
+        border-radius: 30%
+    }
+    75%{
+        border-radius: 40%
+    }
+    100%{
+        border-radius: 50%
+    }
+}    
