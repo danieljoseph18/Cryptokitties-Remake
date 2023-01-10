@@ -1,2 +1,2 @@
-# academy-kitties-template
-A starter template for bootcamp students building the cryptokitty clone.
+Duplicate of the famous CryptoKitties NFT Collection.
+Includes Breeding functionality, marketplace and frontend integration.
